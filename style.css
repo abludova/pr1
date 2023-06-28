@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #FAFAFA;
+}
+.logoicon{/*иконочка*/
+    width: 295px;
+    height: 80px;
+    flex-shrink: 0;
+    margin: 0 auto;
+    display: block;
+    margin-top: 140px;
+    margin-bottom: 40px;
+
+}
+.form-tittles{ /*региcтрация*/
+    color: #56577D;
+    font-size: 28px;
+    font-weight: 700;
+    padding-left: 30px;
+    margin-bottom: 20px;
+    padding-top: 40px;
+}
+.form-text{ /*емаил логин пароль*/
+    color: #7B7CA6;
+    font-size: 20px;
+    font-weight: 400;
+    padding-left: 30px;
+    margin-bottom: 10px;
+}
+input{ /*текст внутри ввода*/
+    color:  #B9BACF;
+    font-size: 16px;
+    width: 546px;
+    height: 44px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: #F6F6F9;
+    border: 0px;
+    padding-left: 11px;
+
+}
+.form-field{ /*куда вводить*/
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+.register-form-container{ /*белый прямоугольник*/
+    max-width: 586px;
+    height: 551px;
+    flex-shrink: 0;
+    background: #ffffff;
+    margin: 0 auto;
+    display: block;
+    margin-top: 40px;
+    margin-bottom: 160px;
+
+}
+button{ /*кнопоська*/
+    width: 304px;
+    height: 43px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: linear-gradient(90deg, #0019FF 0%, #FF00A8 100%);
+    color: #F6F6F9;
+    border: 0px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 58px;
+    text-align: center;
+
+}
+.divider{ /*есть аккаунт*/
+    color: #B9BACF;
+    font-size: 10px;
+    text-align:  center;
+    padding-top: 8px;
+
+}
+.buttons{ /*ссылка войти*/
+    color: #0019FF;
+    font-size: 10px;
+    
+}
